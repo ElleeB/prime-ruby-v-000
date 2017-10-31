@@ -1,9 +1,3 @@
-require 'benchmark'
-require 'bigdecimal/math'
-
-# calculate pi to 10k digits
-puts Benchmark.measure
-
 def prime?(n)
   if n <= 1
     false
